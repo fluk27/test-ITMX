@@ -34,7 +34,15 @@
     go run cmd/main.go
     ```
 ### Run script sqlite
+- if you want sql execute to database.Please follow these steps.
+
+    1.create file just last name ".sql".
+
+    2.run sqlite command.
+
+    ```bash
     sqlite3 Db-name.db < filename.sql
+    ```
 
 
 ### test Go
