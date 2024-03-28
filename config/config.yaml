@@ -1,0 +1,15 @@
+app:
+  name: test-ITMX
+  version: 1.0
+  port: { { app-port } }
+  env: dev
+
+log:
+  level: debug
+
+sqlite:
+  dbname: { { sqlite-dbname } }
+  dbpath: { { sqlite-dbpath } }
+  maxIdleConns: 32
+  maxOpenConns: 64
+  maxLifeTimeMinutes: 5m
