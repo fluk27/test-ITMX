@@ -8,7 +8,7 @@
  - [install Go](https://go.dev/doc/install)
 
 - [install sqlite](https://www.sqlite.org/download.html)
-#### config at path "confg.confg.yaml"
+#### config at path "confg/confg.yaml"
 1. config number port 
     ```bash
         port: { { app-port } }
